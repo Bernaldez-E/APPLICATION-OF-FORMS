@@ -1,0 +1,104 @@
+table{
+  border:5px solid #7c0a02;
+  border-collapse: collapse;
+  margin:10px auto;
+}
+    
+td, th{
+  border-collapse:collapse;
+  padding:15px;
+
+}
+
+td {
+	background-color: #f5f5d1;
+}
+    
+body{
+  font-family:Tahoma;
+  color:#420c09;
+  font-size:1.125em;
+}
+    
+thead tr{
+   background-color: #7c0a02;
+   color: #FEDE83;
+}
+
+tfoot{
+	background-color: #3b8132;
+	
+}
+
+    
+input[type=text],textarea,select{
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius:4px;
+   box-sizing: border-box;
+}
+    
+input[type=submit] {
+  width: 100%;
+  background-color: #FF9A01;
+  color: #FAFA37;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: verdana;
+  font-size:1.125em;
+}
+    
+input[type=reset] {
+  width: 100%;
+  background-color: #FF9A01;
+  color: #FAFA37;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: verdana;
+  font-size:1.125em;
+}
+
+h2{
+  text-align: center;
+  font-family: Courier;
+  color: #FEDE83; 
+  text-shadow: 3px 2px 2px #7c0a02;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+}
+   
+input[type=submit]:hover {
+  background-color: #FFF6C2;
+  color: #009A40;
+}
+    
+input[type=reset]:hover {
+  background-color: #FFF6C2;
+  color:#009A40;
+ }
+    
+textarea{
+  resize:none;
+}
+
+
+
+body{
+    background-image: url(pngwing.com.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-color: #FAF6E9;
+    margin: 0px;
+    padding: 0px;
+}
